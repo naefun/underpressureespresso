@@ -1,0 +1,422 @@
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* --------------------- start of custom css ------------------------- */
+
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* navigation bar */
+nav {
+    background-color: #E4E4E4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw;
+}
+
+.branding {
+    display: flex;
+    align-items: center;
+}
+
+.nav-title-link {
+    color: #000000;
+}
+
+.nav-title-link:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav-title {
+    margin: 0;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.logo {
+    max-height: 4em;
+    margin: 0.6em;
+}
+
+.nav-title-middle-word {
+    color: #993333;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-link {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 400;
+    transition: ease-in 0.2s;
+}
+
+.nav-link:hover {
+    color: #993333;
+}
+
+
+.un {
+    display: inline-block;
+}
+
+.un:after {
+    content: '';
+    width: 0px;
+    height: 1px;
+    display: block;
+    background: #000000;
+    transition: ease-in 0.2s;
+    margin: auto;
+}
+
+.un:hover:after {
+    width: 100%;
+    background: #993333;
+}
+
+/*navigation bar end*/
+
+/* hero section */
+.hero-section {
+    background: linear-gradient(0deg, #000000be, #000000be), url(../imgs/coffee-cup-with-beans.jpg) center no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 0 5vh 0;
+}
+
+.hero-about {
+    color: #fff;
+    font-size: 29px;
+    text-align: center;
+    padding: 0 30vw;
+    margin: 0;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+.hero-call-to-action-buttons {
+    padding: 5vh 0 0 0;
+}
+
+.hero-button {
+    margin: 0 0.6em;
+    border: none;
+    padding: 1em;
+    border-radius: 300px;
+    font-weight: 400;
+    border-style: solid;
+    border-width: 2px;
+    color: #fff;
+    font-size: 19px;
+    transition: ease-in 0.2s;
+}
+
+.hero-about:hover {
+    transition: ease-in 0.2s;
+}
+
+.hero-button-view-menu {
+    background: #993333;
+    border-color: #993333;
+}
+
+.hero-button-view-menu:hover {
+    background: #99333300;
+}
+
+.hero-button-view-shop {
+    background: #99333300;
+    border-color: #993333;
+}
+
+.hero-button-view-shop:hover {
+    background: #993333;
+}
+
+/*hero section*/
+
+/* whats on offer section */
+.whats-on-offer-section {
+    background: #E4E4E4;
+    background-image: url(../imgs/beans-section-background.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4vh;
+}
+
+.title-line {
+    width: 400px;
+    border-color: #993333;
+    border-width: 15px;
+}
+
+.offer-title {
+    font-size: 60px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.offer-category-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3vh;
+}
+
+.offer-category {
+    margin: 0 2vw;
+    text-align: center;
+}
+
+.offer-category-image {
+    max-height: 350px;
+}
+
+.offer-category-title {
+    font-weight: 400;
+    margin: 2vh;
+}
+
+.offer-button {
+    background: #993333;
+    border-color: #993333;
+}
+
+.offer-button:hover {
+    background: #99333300;
+    color: #993333;
+}
+
+/*whats on offer section*/
+
+/* image gallery */
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background: #0F0600;
+    overflow: hidden;
+}
+
+.gallery-image {
+    max-height: 350px;
+    margin: 0 15px;
+}
+
+/*image gallery*/
+
+/* about us */
+.about-us {
+    background: linear-gradient(0deg, #0f0600a6, #0f0600a6), url(../imgs/coffee-machine.jpg) center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 6vh 0;
+}
+
+.about-us-title {
+    font-size: 75px;
+    margin: 0 0 0.5em 0;
+}
+
+.about-us p {
+    font-size: 23px;
+    text-shadow: 0 2px 3px #000000c7;
+}
+
+.about-us-1 {
+    padding: 0 440px;
+}
+
+.about-us-2 {
+    padding: 0 520px;
+}
+
+.morgon-coffee a {
+    color: #993333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.morgon-coffee a:hover {
+    color: #9933338e;
+}
+
+/*about us*/
+
+/* support the store */
+.support-the-store-container {
+    display: grid;
+    grid-template-areas:
+        "title title title image4 image5"
+        "image1 image2 image3 image4 image5";
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto minmax(300px, auto);
+    grid-gap: 10px;
+    padding: 10px;
+    background: #E4E4E4;
+}
+
+.support-store-section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: title;
+}
+
+.store-summary {
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.image1 {
+    background: url(../imgs/square-root.jpg) center no-repeat;
+    background-size: cover;
+    grid-area: image1;
+}
+
+.image2 {
+    background: url(../imgs/coffee-gift.jpg) center no-repeat;
+    background-size: cover;
+    grid-area: image2;
+}
+
+.image3 {
+    background: url(../imgs/fiveelephant.jpg) center no-repeat;
+    background-size: cover;
+    grid-area: image3;
+}
+
+.image4 {
+    background: url(../imgs/t-shirt1.jpg) center no-repeat;
+    background-size: cover;
+    grid-area: image4;
+}
+
+.image5 {
+    background: url(../imgs/t-shirt2.jpg) center no-repeat;
+    background-size: cover;
+    grid-area: image5;
+}
+
+/*support the store*/
+
+/* contact and times */
+.map-contact-times {
+    display: grid;
+    grid-template-areas: "map information";
+    grid-template-columns: 1fr 1fr;
+}
+
+#map {
+    grid-area: map;
+}
+
+.address-open-times {
+    grid-area: information;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.details{
+    font-size: 20px;
+    margin: 0;
+}
+
+.small-line {
+    border-width: 5px;
+    width: 10em;
+}
+
+.aot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*contact and times*/
+
+/* footer */
+footer{
+    background: #0F0600;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-link{
+    color: #fff;
+}
+
+.footer-link:hover{
+    text-decoration: none;
+    color: #993333;
+}
+
+.social-link{
+    font-size: 40px;
+    margin: 0 10px;
+}
+
+/*footer*/

@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Meta tags -->
+  <meta charset="utf-8">
+  <title>Hello, world!</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <!-- navigation bar -->
+  <nav>
+    <div class="branding">
+      <img src="imgs/upe-logo.png" alt="" class="logo">
+      <a href="" class="nav-title-link">
+        <h1 class="nav-title">UNDER<span class="nav-title-middle-word">PRESSURE</span>ESPRESSO</h1>
+      </a>
+    </div>
+
+    <ul class="nav-list">
+      <li class="nav-list-item"><a href="" class="nav-link un">HOME</a></li>
+      <li class="nav-list-item"><a href="" class="nav-link un">MENU</a></li>
+      <li class="nav-list-item"><a href="" class="nav-link un">SHOP</a></li>
+      <li class="nav-list-item"><a href="" class="nav-link un">CONTACT</a></li>
+    </ul>
+  </nav>
+  <!--navigation bar-->
+
+  <!-- hero section -->
+  <div class="hero-section">
+    <p class="hero-about">Under Pressure Espresso is an Independent coffee shop in Sutton Coldfield. Striving to serve
+      up some of the best coffee in the country and to promote knowledge in the cafe about every stage of the coffee
+      cycle, from seed to cup (if you're interested).
+    </p>
+    <div class="hero-call-to-action-buttons">
+      <button class="hero-button-view-menu hero-button">VIEW MENU</button>
+      <button class="hero-button-view-shop hero-button">VIEW SHOP</button>
+    </div>
+  </div>
+  <!--hero section-->
+
+  <!-- whats on offer section -->
+  <div class="whats-on-offer-section">
+    <hr class="title-line">
+    <h2 class="offer-title">WHAT'S ON OFFER</h2>
+    <div class="offer-category-container">
+      <div class="offer-category">
+        <img src="imgs/coffee-n-cake.jpg" alt="" class="offer-category-image">
+        <h3 class="offer-category-title">COFFEE & BAKERY</h3>
+      </div>
+      <div class="offer-category">
+        <img src="imgs/iced-coffee.jpg" alt="" class="offer-category-image">
+        <h3 class="offer-category-title">ICED COFFEE</h3>
+      </div>
+      <div class="offer-category">
+        <img src="imgs/coffee-for-sale.jpg" alt="" class="offer-category-image">
+        <h3 class="offer-category-title">COFFEE BEANS</h3>
+      </div>
+    </div>
+    <button class="hero-button offer-button ">VIEW MENU</button>
+  </div>
+  <!--whats on offer section-->
+
+  <!-- image gallery -->
+  <div class="image-gallery">
+    <img src="imgs/inside-cafe.jpg" alt="" class="gallery-image">
+    <img src="imgs/inside-cafe2.jpg" alt="" class="gallery-image">
+    <img src="imgs/japanese-iced-coffee.jpg" alt="" class="gallery-image">
+    <img src="imgs/outside-cafe.jpg" alt="" class="gallery-image">
+    <img src="imgs/morgon-coffee.jpg" alt="" class="gallery-image">
+  </div>
+  <!--image gallery-->
+
+  <!-- about us -->
+  <div class="about-us">
+    <hr class="title-line">
+    <h2 class="about-us-title offer-title">ABOUT US</h2>
+    <p class="about-us-1">
+      As Sutton Coldfields only real "speciality" coffee shop, we really hope that you stop by and try what we have to
+      offer. We're a little different from anything else going on in Sutton town at the moment. We are fully focused on
+      serving up coffee to the absolute best of our abilities. Coffee that has been sourced from some of the most
+      amazing farms around the world and roasted impeccably. We're here to showcase all of that hard work in the cup. We
+      can't wait serve you and see what you think.
+    </p>
+    <hr class="paragraph-line">
+    <p class="about-us-2">"Striving to serve up some of the best coffee in the country" has become our little motto, but
+      it's not only true for coffee, it goes for everything that we do. The only way that this is really consistently a
+      possibility with coffee, is by using one of the best coffee roasters in the world. And so, let me introduce you to
+      <span class="morgon-coffee"><a href="">Morgon Coffee</a></span> Roasters, from Gothenburg, Sweden.
+    </p>
+  </div>
+  <!--about us-->
+
+  <!-- support the store -->
+  <div class="support-the-store-container">
+    <div class="support-store-section1">
+      <hr class="title-line">
+      <h2 class="support-title offer-title">SUPPORT THE STORE</h2>
+      <h3 class="store-summary">T-SHIRTS / SEASONAL GIFTS / COFFEE BEANS / FILTERS / etc...</h3>
+    </div>
+    <div class="grid-image image1"></div>
+    <div class="grid-image image2"></div>
+    <div class="grid-image image3"></div>
+    <div class="grid-image image4"></div>
+    <div class="grid-image image5"></div>
+  </div>
+  <!--support the store-->
+
+  <!-- contact and times -->
+  <div class="map-contact-times">
+    <div id="map">
+      <script>
+        var map;
+
+        function initMap() {
+          var myLatLng = {lat: 52.559407, lng: -1.826030};
+
+          map = new google.maps.Map(document.getElementById('map'), {
+            center: myLatLng,
+            zoom: 19
+          });
+
+          var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            title: 'Hello World!'
+          });
+        }
+      </script>
+    </div>
+
+    <div class="address-open-times">
+      <div class="address-container aot-container">
+        <h3 class="address-times-title">COME FIND US</h3>
+        <hr class="small-line title-line">
+        <p class="details">
+          23a Birmingham Road<br>
+          Sutton Coldfield<br>
+          Birmingham<br>
+          B72 1QA
+        </p>
+      </div>
+
+      <div class="open-times-container aot-container">
+        <h3 class="address-times-title">OPENING TIMES</h3>
+        <hr class="small-line title-line">
+        <p class="details">
+          Monday - Thursday<br>
+          08:00 - 17:00<br>
+          Friday - Saturday<br>
+          08:00 - 18:00<br>
+          Sunday<br>
+          10:00 - 16:00
+        </p>
+      </div>
+    </div>
+  </div>
+  <!--contact and times-->
+
+  <!-- footer -->
+  <footer>
+    <p class="footer-text">
+      Copyright © 2019 Under Pressure Espresso<br>
+      <a class="footer-link" href="mailto:coffee@underpressureespresso.co.uk">coffee@underpressureespresso.co.uk</a>
+    </p>
+    <div class="footer-social-icons">
+      <a href="https://www.facebook.com/underpressureespressobar" target="_blank" class="footer-link social-link fab fa-facebook"></a>
+      <a href="https://www.instagram.com/underpressureespresso/" target="_blank" class="footer-link social-link fab fa-instagram"></a>
+      <a href="https://twitter.com/UPespressobar" target="_blank" class="footer-link social-link fab fa-twitter-square"></a>
+    </div>
+  </footer>
+  <!--footer-->
+
+  <!-- Optional JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRfDKW_TDnlefZL99YTyQAN7D8Igx-8ko&callback=initMap"
+    async defer></script>
+</body>
+
+</html>
