@@ -1,5 +1,4 @@
-This is a free website for "underpressureespresso". An indie coffee shop in sutton coldfield.
-In return I will ask if I can place business cards in their store or something similar.
+This is a website for "underpressureespresso". An independent coffee shop in sutton coldfield.
 
 URL: http://www.underpressureespresso.co.uk
 Email: coffee@underpressureespresso.co.uk
